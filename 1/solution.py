@@ -1,4 +1,4 @@
-my_file = open("data_1.csv", "r")
+my_file = open("data.csv", "r")
 x = [int(x.replace("\n", "")) for x in my_file.readlines()]
 
 
